@@ -2,6 +2,8 @@
 
 A utility for creating comprehensive project dumps for analysis, especially suitable for AI code analysis.
 
+![alt text](./assets/gui_image.png)
+
 ## Features
 
 - **Directory Traversal:** Recursively traverses project directories.
@@ -10,7 +12,6 @@ A utility for creating comprehensive project dumps for analysis, especially suit
 - **GUI and CLI:** Offers both a graphical user interface and a command-line interface for flexibility.
 - **Drag-and-Drop (GUI):** Easily load projects by dragging and dropping folders onto the application window.
 - **Custom Prompt:** Allows users to configure a custom prompt that prefixes the project dump.
-- **Copy and Save Output (GUI):** Buttons to easily copy the generated dump to the clipboard or save it to a file.
 
 ## Setup
 
