@@ -1,4 +1,3 @@
-```markdown
 # Project Dump Tool
 
 A utility for creating comprehensive project dumps for analysis, especially suitable for AI code analysis.
@@ -11,11 +10,6 @@ A utility for creating comprehensive project dumps for analysis, especially suit
 - **GUI and CLI:** Offers both a graphical user interface and a command-line interface for flexibility.
 - **Drag-and-Drop (GUI):** Easily load projects by dragging and dropping folders onto the application window.
 - **Custom Prompt:** Allows users to configure a custom prompt that prefixes the project dump.
-- **Automation-Friendly (CLI):** Can be used in scripts and automated workflows.
-- **Binary File Detection:** Detects and excludes binary files to keep the output text-based.
-- **Large File Skipping:** Automatically skips files larger than 5MB to prevent excessive output and improve processing time. A "[Skipped large file]" notice is included in the output for these files.
-- **Settings Tab (GUI):** Provides an interface to customize additional excluded directories and file patterns.
-- **Custom Prompt Editor (GUI):** Includes a dedicated editor for creating and saving custom prompts.
 - **Copy and Save Output (GUI):** Buttons to easily copy the generated dump to the clipboard or save it to a file.
 
 ## Setup
