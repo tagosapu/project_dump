@@ -33,16 +33,16 @@ from typing import List, Optional, Set
 
 # Constants
 EXCLUDE_DIRS: Set[str] = {"node_modules", ".git", "__pycache__"}
-EXCLUDE_FILE_PATTERNS: Set[str] = {"*.log", "*.tmp", "*.pyc"}
+EXCLUDE_FILE_PATTERNS: Set[str] = {"*.log", "*.tmp", "*.pyc", ".gitignore"}
 DEFAULT_PROMPT: str = """
-    You are an expert in analyzing software project structures and file contents. 
-    Based on the following code, please answer the question or perform the task as instructed.
+You are an expert in analyzing software project structures and file contents. 
+Based on the following code, please answer the question or perform the task as instructed.
 
-    # instruction
+# instruction
 
 
-    # code
-    """
+# code
+"""
 PROMPT_FILE = "custom_prompt.json"
 BINARY_CHECK_BYTES = 1024
 
