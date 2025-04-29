@@ -29,7 +29,7 @@ A utility for creating comprehensive project dumps for analysis, especially suit
     ```
     This library provides drag-and-drop functionality in the graphical user interface. If you intend to use the GUI and want drag-and-drop support, this step is recommended. The application will attempt to install it if it's not found, but manual installation beforehand can prevent potential issues.
 
-3.  **Download the Script:** Save the provided Python code as `project_dump.py` or any other `.py` file name you prefer.
+3.  **Download the Script:** Save the provided Python code `src/project_dump.py` as `project_dump.py` or any other `.py` file name you prefer.
 
 ## Usage
 
@@ -37,7 +37,7 @@ A utility for creating comprehensive project dumps for analysis, especially suit
 
 1.  Run the script:
     ```bash
-    python project_dump.py
+    python src/project_dump.py
     ```
 2.  You can either:
     - Drag and drop a project folder onto the application window.
