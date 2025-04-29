@@ -1,6 +1,7 @@
 # Project Dump Tool
 
-A utility for creating comprehensive project dumps for analysis, especially suitable for AI code analysis.
+This tool generates a comprehensive snapshot of your project's codebase, optimized for AI-powered analysis.
+It consolidates all source files into a single, readable text file with an ASCII directory tree and clear separators between files.
 
 ![alt text](./assets/gui_image.png)
 
